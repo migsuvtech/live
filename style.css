@@ -1,16 +1,18 @@
 body {
-    background: linear-gradient(to bottom, #050921, #1a0454);
+    background: linear-gradient(to bottom, #0e1642, #0e0130);
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .name {
-    color: whitesmoke;
+    color: rgb(180, 179, 179);
     font-size: 70px;
 }
 
@@ -60,7 +62,7 @@ body {
 }
 
 h1 {
-    color: whitesmoke;
+    color: rgb(180, 179, 179);
     font-size: 50px;
 }
 
@@ -89,11 +91,15 @@ h2 {
     margin-right: 400px;
     margin-bottom: 500px;
     margin-top: 100px;
+    
 }
 
-/* .text-container2 {
-    opacity: 0;
-} */
+.text-container2 {
+    text-align: center;
+    width: 60%;
+    margin-right: 400px;
+    padding-bottom: 100px;
+}
 
 p {
     color: whitesmoke;
@@ -121,6 +127,10 @@ p {
     margin-top: 50%;
 }
 
+.CompletedHeader {
+    margin-top: 60%;
+}
+
 .AlignLeft {
     text-align: center;
     color: whitesmoke;
@@ -136,20 +146,18 @@ p {
     margin-right: 900px;
 }
 
-h2, p {
+h2 , p {
     margin: 0;
     padding: 0;
-}
+}   
 
-h2, h3 {
+h2 , h3 , a {
     margin: 0;
     padding: 0;
+    color: rgb(121, 121, 121);
+    font-weight: 900;
 }
 
-.LinkColor  {
-    color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-}
 
 .ContactInfo {
     color: whitesmoke;
@@ -159,17 +167,20 @@ h2, h3 {
 }
 
 footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
     color: #333;
     padding: 10px;
+    padding-bottom: 5px;
     text-align: center;
     background-color: black;
+    overflow: hidden;
 }
 
-footer, p {
+footer , p {
     font-size: 14px;
+    padding-bottom: 30px;
 }
 
 header {
@@ -194,3 +205,17 @@ header a {
     right: 100px;
     color: whitesmoke;
 }
+
+
+p , ul {
+    padding-bottom: 0px;
+}
+
+li {
+    font-size: 15px;
+}
+
+h3 ~ p {
+    padding-bottom: 10px;
+}
+
