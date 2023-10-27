@@ -4,7 +4,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
     height: 0;
     margin: 0;
     overflow-y: auto;
@@ -77,16 +76,26 @@ h2 {
 
 .text-container {
     text-align: center;
-    width: 40%;
-    margin-right: 400px;
+    width: 70%;
     margin-bottom: 100px;
     margin-top: 0;
+    padding-left: 280px;
+
     
 }
 
+.text-containerAboutMe {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 0;
+
+}
+
+
 .text-container2 {
     text-align: center;
-    width: 55%;
+    width: 100%;
     margin-right: 100px;
     margin-left: 100px;
     padding-bottom: 100px;
@@ -117,14 +126,20 @@ p {
 
 .AboutMeHeader {
     margin-top: 0;
+    text-align: center;
+
 }
 
-/* .CompaniesHeader {
-    margin-top: 40%;
-} */
+.aboutMeSummary {
+    width: 60%;
+    text-align: center;
+}
+
 
 .CompletedHeader {
     margin-top: 0;
+    text-align: left;
+    padding-left: 200px;
 }
 
 .AlignLeft {
@@ -132,7 +147,40 @@ p {
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
+    width: 50%;
+    float: left;
 }
+
+.AlignLeftCompleted {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding-left: 200px;
+    width: 50%;
+
+}
+
+
+.aboutMeFloatLeft {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    width: 40%;
+    float: left;
+    padding-left: 300px;
+}
+
+.AlignLeftAboutMe {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    width: 70%;
+    
+}
+
 
 
 h2 , p {
@@ -172,6 +220,21 @@ footer , p {
     padding-bottom: 30px;
 }
 
+
+.OtherPageFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #333;
+    padding: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+
 header {
     position: absolute;
     top: 0;
@@ -209,3 +272,38 @@ h3 ~ p {
     padding-bottom: 10px;
 }
 
+
+.image {
+    width: 40%;
+    float: right;
+}
+
+.ascii {
+    width: 20%;
+    margin-right: 20%;
+    max-height: 125px;
+}
+
+.digitalSpring {
+    width: 20%;
+    max-height: 125px;
+    margin-left: 20%;
+}
+
+.euroLink {
+    width: 20%;
+    margin-right: 20%;
+    max-height: 125px;
+}
+
+.nimbyx {
+    width: 20%;
+    margin-left: 20%;
+    max-height: 125px;
+}
+
+.myphoto {
+    width: 20%;
+    padding-right: 400px;
+    padding-top: 100px;
+}

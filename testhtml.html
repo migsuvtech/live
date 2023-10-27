@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+    <style>
+        .content-container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .content {
+            float: left;
+            width: 70%;
+        }
+
+        .image {
+            float: right;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Web Page</h1>
+    
+    <div class="content-container">
+        <div class="content">
+            <p>This is some text on the left side.</p>
+        </div>
+        <div class="image">
+            <img src="your-image-url.jpg" alt="Description of the image">
+        </div>
+    </div>
+</body>
+</html>
